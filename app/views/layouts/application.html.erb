@@ -4,16 +4,23 @@
     <title>TechChat</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <div class="header">
-      <h1>TechChat</h1>
-      <div class="question_btn">質問する</div>
+    <div class="all">
+      <div class="header">
+        <div class="top_title">TechChat</div>
+        <div class="question_btn">質問する</div>
+      </div>
+      <div class="main">
+        <%= yield %>
+      </div>
     </div>
-    <%= yield %>
   </body>
 </html>

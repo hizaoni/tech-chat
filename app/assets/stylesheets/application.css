@@ -14,4 +14,43 @@
  *= require_self
  */
 
- 
+.all{
+  height: 100vh;
+  width: 100vw;
+  background-color: #F2F2F3;
+}
+
+.header{
+  height: 65px;
+  width: 100vw;
+  background-color: #1C3667;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.main{
+  height: calc(100vh - 65px);
+  width: 100vw;
+  background-color: #F2F2F3;
+}
+
+
+.top_title{
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  font-weight: 100;
+  color: #ffffff;
+  letter-spacing: 1.8px;
+ }
+
+.question_btn{
+  font-size: 16px;
+  color: #3A3736;
+  background-color: #ffffff;
+  border-radius: 5px;
+  line-height: 32px;
+  width: 80px;
+  text-align: center;
+}

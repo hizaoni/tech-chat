@@ -19,3 +19,63 @@ div {
   margin: 0;
   padding: 0;
 }
+
+.top-page{
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+}
+.main_contents{
+  width: 700px;
+  height: 100px;
+  display: flex;
+}
+
+.comment_counter{
+  height: 100;
+  width: 70px;
+  background-color: #1C3667;
+}
+
+.counter{
+  height: 38px;
+  width: 70px;
+  font-size: 26px;
+  margin-top: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.comment{
+  line-height: 16px;
+  width: 70px;
+  text-align: center;
+  font-size: 11px;
+  color: #ffffff;
+}
+
+.sub_contents{
+  width: 630px;
+  height: 100px;
+  background-color: #FFFFFF;
+  padding: 10px 15px;
+}
+
+.title_name{
+  width: auto;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title{
+  font-size: 14px;
+}
+.name{
+  font-size: 12px;
+}
+
+.content{
+  font-size: 12px;
+  margin-top: 10px;
+}
